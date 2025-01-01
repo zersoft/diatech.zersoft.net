@@ -1,0 +1,24 @@
+.home-page {
+  .intro-section {
+    text-align: center;
+    padding: $spacing-unit * 2;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-radius: 8px;
+    margin-bottom: $spacing-unit * 2;
+  }
+
+  .featured-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: $spacing-unit;
+    
+    .card {
+      transition: $transition-base;
+      
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+    }
+  }
+} 

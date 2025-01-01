@@ -1,0 +1,29 @@
+// Değişkenler ve temel ayarlar
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Bileşenler
+@import 'components/navbar';
+
+// Sayfalar
+@import 'pages/home';
+@import 'pages/general-info';
+@import 'pages/technical-info';
+@import 'pages/future-tech';
+@import 'pages/social';
+
+// Genel stiller
+body {
+  font-family: $font-family-base;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-headers;
+}
+
+.container {
+  padding: $container-padding;
+}

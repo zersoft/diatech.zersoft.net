@@ -1,0 +1,11 @@
+.social {
+  .story-card {
+    border-left: 4px solid #007bff;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: #f8f9fa;
+      transform: scale(1.01);
+    }
+  }
+} 
